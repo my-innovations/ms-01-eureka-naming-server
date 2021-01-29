@@ -1,0 +1,8 @@
+Delete all files from this below 2 folders.
+E:\punya_workspace\my_workspace_eclipse\.metadata\.plugins\org.eclipse.core.resources\.history
+E:\punya_workspace\my_workspace_eclipse\.metadata\.plugins\org.eclipse.jdt.core
+
+
+popular eclipse plugins:
+ ascii doc & plant uml - for documentation 
+ eclemma - code coverage plugin
