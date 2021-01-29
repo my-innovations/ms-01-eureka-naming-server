@@ -83,7 +83,7 @@
 	</dependencyManagement>
 
 	<build>
-		<finalName>eureka-naming-server-ms</finalName>
+		<finalName>eureka-naming-server</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
