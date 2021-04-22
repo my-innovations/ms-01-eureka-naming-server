@@ -71,7 +71,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 		</dependency>
-		
 	</dependencies>
 
 	<dependencyManagement>
@@ -87,7 +86,7 @@
 	</dependencyManagement>
 
 	<build>
-		<finalName>eureka-naming-server</finalName>
+		<finalName>eureka-naming-discovery-server-app</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

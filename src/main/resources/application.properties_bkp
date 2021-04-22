@@ -1,5 +1,5 @@
 
-#spring.application.name=netflix-eureka-naming-server
+#spring.application.name=netflix-eureka-naming-discovery-server
 
 #This is default port of eureka naming and discovery server app.
 #server.port=8761
