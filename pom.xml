@@ -16,52 +16,65 @@
 	<properties>
 
 		<java.version>1.8</java.version>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		
 		<!-- spring cloud releases -->
+		<!-- when working with jdk8 and spring boot 1.2.x -->
 		<!-- <spring-cloud.version>Angel.SR3</spring-cloud.version> -->
+		<!-- <spring-cloud.version>Angel.SR4</spring-cloud.version> -->
 		<!-- <spring-cloud.version>Brixton.RELEASE</spring-cloud.version> -->
 		<!-- <spring-cloud.version>Camden.SR3</spring-cloud.version> -->
 		<!-- <spring-cloud.version>Camden.SR6</spring-cloud.version> -->
 
-		<!-- when working with jdk8 and pringboot 1.5.x -->
+		<!-- when working with jdk8 and spring boot 1.5.x -->
 		<!-- <spring-cloud.version>Dalston.RELEASE</spring-cloud.version> -->
 		<!-- <spring-cloud.version>Edgware.RELEASE</spring-cloud.version> -->
 
-		<!-- when working with jdk8 and springboot 2.0.x -->
+		<!-- when working with jdk8 and spring boot 2.0.x -->
 		<!-- <spring-cloud.version>Finchley.BUILD-SNAPSHOT</spring-cloud.version> -->
 
-		<!-- when working with jdk8 and springboot 2.1.x -->
+		<!-- when working with jdk8 and spring boot 2.1.x -->
 		<spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
 
-		<!-- when working with jdk11 and pringboot 2.2.x -->
+		<!-- when working with jdk11 and spring boot 2.2.x -->
 		<!-- <spring-cloud.version>Hoxton.SR5</spring-cloud.version> -->
 		<!-- <spring-cloud.version>Hoxton.RELEASE</spring-cloud.version> -->
 
 	</properties>
 
 	<dependencies>
+		
+		<!-- #############################################################################
+							Spring Cloud Dependencies
+		 ############################################################################# -->
 	
 		<!-- To act this ms as eureka server ms application -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 		</dependency>
-		<!-- To act this ms as config client ms application -->
+		<!-- To act this ms as spring cloud config client ms application -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
+		</dependency>
+		
+		<!-- #############################################################################
+							Spring Boot Dependencies
+		 ############################################################################# -->
+	
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<!-- To check health for this ms -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -71,6 +84,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 		</dependency>
+		
 	</dependencies>
 
 	<dependencyManagement>

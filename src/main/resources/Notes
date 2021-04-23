@@ -1,0 +1,107 @@
+	
+Sub projects under spring i/o umbrella:
+--------------------------------------
+Reactor
+Android
+Mobile
+spring Security
+spring Batch
+spring Integration
+spring web flow
+spring Social 
+spring data
+spring web services
+spring AMQP
+spring Haetos
+spring XD
+Spring f/w
+spring boot
+spring cloud
+	spring cloud connectors
+	spring cloud AWS
+	Spring cloud config(server,client)
+	Spring cloud bus
+	spring cloud netflix
+		Eureka(server,client)
+		Hystrix
+		Zuul
+		Ribbon
+		Feign
+
+======================================================================================================
+
+>telnet google.com 80
+
+http 1.0  from 1991 to 1995
+http 1.1 came in 1997
+http 2.0 came in 2015
+
+http request methods:
+		GET  - Idempotent
+		POST - Not Idempotent
+		PUT - Idempotent
+		DELETE - Idempotent
+		PATCH
+		HEAD - asks for meta information without body.
+		TRACE - will echo the recieved request.
+		OPTIONS - Returns the http methods supported by the server for the specified url.
+		CONNECT
+	
+Safe methods: GET,HEAD,OPTIONS,TRACE  - Idempotent
+
+Http Status codes:
+		100 - informational
+		2xx - successful request
+			200 - OK
+			201 - Created
+			204 - Accepted, No Content
+		3xx - redirectional
+			301 - Moved permanently
+		4xx - client errors
+			400
+			401
+			403
+			404
+			415 - mediatype not supported
+		5xx - Server side error
+			500 
+			503 - server un avialable
+	
+Stateless - Server does not mantain client state.
+
+HAETOS - 
+
+Rechardson maturity model :
+
+
+API Versioning:
+	api/v1/contacts
+	
+Semantic versioning:
+  Major - 
+  Minor - backword compatible changes
+  Patch - bug fixes 
+  
+ Non breaking changes: 
+ 	EX- Due to new optional param,new response fields,new service endpoint,Bug fixes etc.
+ 	Minor - 
+ 	Patch - 
+	
+Breaking changes - 
+	This should be done under Major changes.
+	EX-
+	New required parameter
+	Removal of existing parameter
+	Removal of response value
+	Param name change or type change
+	Deprecation of a service
+	
+
+jupiter-api,jupiter-engine,mockito-junit-jupiter
+
+
+
+	
+	
+	
+		
