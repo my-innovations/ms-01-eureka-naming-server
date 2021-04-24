@@ -4,11 +4,30 @@ Eureka-server: port = 8761
 http://localhost:8761/
 
 config-server: port = 8888
+http://localhost:8888/limits-service/default/
+http://localhost:8888/limits-service/dev/
+http://localhost:8888/limits-service/qa/
+http://localhost:8888/limits-service/uat/
+http://localhost:8888/limits-service/prod/
+
+http://localhost:8888/currency-exchange-service/default/
+http://localhost:8888/currency-exchange-service/dev/
+http://localhost:8888/currency-exchange-service/qa/
+http://localhost:8888/currency-exchange-service/uat/
+http://localhost:8888/currency-exchange-service/prod/
+
+http://localhost:8888/currency-conversion-service/default/
+http://localhost:8888/currency-conversion-service/dev/
+http://localhost:8888/currency-conversion-service/qa/
+http://localhost:8888/currency-conversion-service/uat/
+http://localhost:8888/currency-conversion-service/prod/
 
 zuul-api-gate-way:
 
+cloud-gate-way: port 8191
+
 Limits-service: port = 8081
-http://localhost:8081/limits-service-api/limits/without-fall-back
+GET - http://localhost:8081/limits-service-api/limits/without-fall-back
 http://localhost:8081/limits-service-api/limits/with-fall-back
 http://localhost:8081/limits-service-api/hello
 http://localhost:8081/limits-service-api/getMyEmail
