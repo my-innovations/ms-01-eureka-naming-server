@@ -1,0 +1,19 @@
+Rest End points exposed in all microservices:
+
+Eureka-server:
+http://localhost:8761/
+
+currency-exchange-service:
+GET - http://localhost:8082/currency-exchange-api/getMyName
+GET - http://localhost:8082/currency-exchange-api/getServerPort
+GET - http://localhost:8082/currency-exchange-api/currency-exchange/from/USD/to/INR
+GET - http://localhost:8082/currency-exchange-api/currency-exchange/from/EUR/to/INR
+GET - http://localhost:8082/currency-exchange-api/all-currency-exchanges
+
+currency-conversion-service:
+http://localhost:8081/limits-service-api/limits/without-fall-back
+http://localhost:8081/limits-service-api/limits/with-fall-back
+http://localhost:8081/limits-service-api/hello
+http://localhost:8081/limits-service-api/getMyEmail
+
+POST - http://localhost:8081/actuator/refresh  - without request pay load

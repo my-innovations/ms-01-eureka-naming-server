@@ -19,14 +19,16 @@ spring boot
 spring cloud
 	spring cloud connectors
 	spring cloud AWS
-	Spring cloud config(server,client)
+	Spring cloud config (server,client)
 	Spring cloud bus
+	spring cloud sleuth
+	spring cloud zipkin
 	spring cloud netflix
 		Eureka(server,client)
-		Hystrix
-		Zuul
-		Ribbon
-		Feign
+		Hystrix - for fault tollerant
+		Zuul proxy - gateway
+		Ribbon - client side load balancing
+		Feign client - declarative call
 
 ======================================================================================================
 
