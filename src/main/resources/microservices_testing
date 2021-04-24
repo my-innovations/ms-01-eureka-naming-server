@@ -31,8 +31,10 @@ http://localhost:8083/currency-conversion-api/hello
 http://localhost:8083/currency-conversion-api/helloYT
 	
 
-zipkin server: port = 9211
+zipkin server: port = 9411
+java -jar zipkin.jar
+http://localhost:9411
 
-RabitMQ server
+RabitMQ server port=5672
 
 POST - http://localhost:8081/actuator/refresh  - without request pay load
