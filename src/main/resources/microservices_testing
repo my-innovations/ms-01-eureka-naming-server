@@ -3,17 +3,34 @@ Rest End points exposed in all microservices:
 Eureka-server:
 http://localhost:8761/
 
-currency-exchange-service:
+Limits-service: port = 8081
+http://localhost:8081/limits-service-api/limits/without-fall-back
+http://localhost:8081/limits-service-api/limits/with-fall-back
+http://localhost:8081/limits-service-api/hello
+http://localhost:8081/limits-service-api/getMyEmail
+
+currency-exchange-service: port = 8082
 GET - http://localhost:8082/currency-exchange-api/getMyName
 GET - http://localhost:8082/currency-exchange-api/getServerPort
 GET - http://localhost:8082/currency-exchange-api/currency-exchange/from/USD/to/INR
 GET - http://localhost:8082/currency-exchange-api/currency-exchange/from/EUR/to/INR
 GET - http://localhost:8082/currency-exchange-api/all-currency-exchanges
 
-currency-conversion-service:
-http://localhost:8081/limits-service-api/limits/without-fall-back
-http://localhost:8081/limits-service-api/limits/with-fall-back
-http://localhost:8081/limits-service-api/hello
-http://localhost:8081/limits-service-api/getMyEmail
+currency-conversion-service: port 8083
+http://localhost:8083/currency-conversion-api/currency-converter-restTemplate/from/USD/to/INR/quantity/5
+http://localhost:8083/currency-conversion-api/currency-converter-with-hystrix-fallback/from/USD/to/INR/quantity/5
+http://localhost:8762/currency-conversion-api/currency-converter-with-hystrix-fallback/from/USD/to/INR/quantity/5
+http://localhost:8083/currency-conversion-ms/currency-converter-feign/from/USD/to/INR/quantity/5
+http://punya:8083/currency-conversion-api/service-instances/currency-conversion-service
+http://localhost:8083/currency-conversion-api/currency-converter-with-load-balancer-client/from/USD/to/INR/quantity/7
+http://localhost:8083/currency-conversion-api/hello
+http://localhost:8083/currency-conversion-api/helloYT
+	
+zuul-api-gate-way:
+
+config-server:
+
+zipkin server:
+
 
 POST - http://localhost:8081/actuator/refresh  - without request pay load
