@@ -57,6 +57,7 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 		</dependency>
+		
 		<!-- To act this ms as spring cloud config client ms application -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>

@@ -1,7 +1,11 @@
 Rest End points exposed in all microservices:
 
-Eureka-server:
+Eureka-server: port = 8761
 http://localhost:8761/
+
+config-server: port = 8888
+
+zuul-api-gate-way:
 
 Limits-service: port = 8081
 http://localhost:8081/limits-service-api/limits/without-fall-back
@@ -26,11 +30,9 @@ http://localhost:8083/currency-conversion-api/currency-converter-with-load-balan
 http://localhost:8083/currency-conversion-api/hello
 http://localhost:8083/currency-conversion-api/helloYT
 	
-zuul-api-gate-way:
 
-config-server:
+zipkin server: port = 9211
 
-zipkin server:
-
+RabitMQ server
 
 POST - http://localhost:8081/actuator/refresh  - without request pay load
