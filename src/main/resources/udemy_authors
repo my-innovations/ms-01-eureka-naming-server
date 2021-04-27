@@ -4,50 +4,56 @@ john Thompson - spring f/w guru
 In28minutes
 Tim Buchalka
 Navin Reddy
-Dan Vega
+Dan Vega - 2 courses on springboot
 Bharath Thippireddy
 John Purcell
-Chad Darby
 Spring Batch
 Sergey - oauth2.0 in spring boot app
-Chad Darby - deploy spring app to AWS
-Timotius Pamungkas - spring boot with ealastic search
-Holczer Balazs
+Timotius Pamungkas - spring boot with ealastic search, kafka & kafka streams with spring boot
+Holczer Balazs - Data structure & algotithims
 Pragmatic code school - kafka with springboot
-Dominik Cebula
+Dominik Cebula - spring professional certification exam
 Easy Bytes - spring security
 Trevor Page - spring security
-Get Arrays - JWT 
 Spring Batch - spring batch
 Spring Academy -= spring Integration
 Easy Bytes - spring security
-Imtiaz Ahmad
+Imtiaz Ahmad - ELK stack,Oracle SQL, thymeleaf with springboot 
 Sivaprasad Vallury -oauth2 with springboot
-Kathikeya - full stack app springboot with ang
 matt Greencroft , virtual pair programming
-Agile inteligence
-Get Arrays
 Alfa e-learning - jms with springboot,mongodb,
 Sean Campbell
-Richard Chesterwood - Docker, kubernates
-nelson jamal - jdk8 stream api
+nelson jamal - jdk8 stream api,springboot
 Mathias biehi - oauth2
 Viraj Shetty - oauth2 and openid connect
-kalyan Reddy - AWS 
 Naveen reddy
-Agile inteligence - fuul stack spring boot with react and redux
-Imtiaz Ahmad - thymeleaf with springboot 
 Matt - Virtual pair programmers - thymeleaf with spring boot
+Swapan kumar dutta - debugging through eclipse
+
+
+Full Stack::
+Get Arrays - JWT with spring security and angular
+Agile inteligence - full stack with spring boot and react
+Kathikeyan - full stack app springboot with ang
+Agile inteligence - fuul stack spring boot with react and redux
+
+
+
+DevOps::
 Richard Chesterwood -virtual pair programmers - Docker , kubernates hand on - deploy springboot app to AWS cloud
-AWS course - P K Akshay
-Stephen grider - docker and kubernates
-Mumshad - kubernates
-Edward viaene - kubernates
+Stephen grider - docker and kubernates complete guide,
+Mumshad - Docker,kubernatesAnsible,chef,puppet 
+Chad Darby - deploy spring app to AWS
+syed Raza - complete devops with java ,kubernates
+Richard Chesterwood - Docker, kubernates
 John Honai - CICD
 Tao W - Docker 
-Jason Taylor-  jenkins 2.0
-Niyazi Erdogan - PCF,rabitmq
-Academind - Docker and Kubernates
-Mark winterbottom - devops
-Bret fisher - kubernates
-Swapan kumar dutta - debugging through eclipse
+Jason Taylor-  jenkins 2.0,GIT
+Niyazi Erdogan - PCF,rabitmq,AWS
+Academind by maximilan - Docker and Kubernates,mongodb
+Rahul Shetty - Devops  <========
+kalyan Reddy - AWS  <==========
+P K Akshay - AWS course <=======
+Edward viaene - kubernates   <=======
+Mark winterbottom - devops deployment automation with teraform,AWS,Docker   <======
+Bret fisher - Docker mastery,kubernates mastery  <=======
