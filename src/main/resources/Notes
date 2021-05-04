@@ -102,6 +102,14 @@ Breaking changes -
 jupiter-api,jupiter-engine,mockito-junit-jupiter
 
 
+------------------------------------------------------------------------------------------------------------------------
+
+Eureka Server is an application that holds the information about all eureka client applications. 
+Every Micro service will register into the Eureka server and Eureka server knows all the client applications running on each port and IP address. 
+Eureka Server is also known as Discovery Server.
+Eureka Server comes with the bundle of Spring Cloud. For this, we need to develop the Eureka server and run it on the default port 8761.
+
+
 
 	
 	

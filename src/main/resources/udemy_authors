@@ -1,59 +1,110 @@
-All Authors:
------------
-john Thompson - spring f/w guru 
-In28minutes
-Tim Buchalka
-Navin Reddy
-Dan Vega - 2 courses on springboot
-Bharath Thippireddy
-John Purcell
-Spring Batch
-Sergey - oauth2.0 in spring boot app
-Timotius Pamungkas - spring boot with ealastic search, kafka & kafka streams with spring boot
-Holczer Balazs - Data structure & algotithims
-Pragmatic code school - kafka with springboot
-Dominik Cebula - spring professional certification exam
-Easy Bytes - spring security
-Trevor Page - spring security
-Spring Batch - spring batch
-Spring Academy -= spring Integration
-Easy Bytes - spring security
-Imtiaz Ahmad - ELK stack,Oracle SQL, thymeleaf with springboot 
-Sivaprasad Vallury -oauth2 with springboot
-matt Greencroft , virtual pair programming
-Alfa e-learning - jms with springboot,mongodb,
-Sean Campbell
-nelson jamal - jdk8 stream api,springboot
-Mathias biehi - oauth2
-Viraj Shetty - oauth2 and openid connect
-Naveen reddy
-Matt - Virtual pair programmers - thymeleaf with spring boot
-Swapan kumar dutta - debugging through eclipse
-
-
-Full Stack::
-Get Arrays - JWT with spring security and angular
-Agile inteligence - full stack with spring boot and react
-Kathikeyan - full stack app springboot with ang
-Agile inteligence - fuul stack spring boot with react and redux
-
-
-
-DevOps::
-Richard Chesterwood -virtual pair programmers - Docker , kubernates hand on - deploy springboot app to AWS cloud
-Stephen grider - docker and kubernates complete guide,
-Mumshad - Docker,kubernatesAnsible,chef,puppet 
-Chad Darby - deploy spring app to AWS
-syed Raza - complete devops with java ,kubernates
-Richard Chesterwood - Docker, kubernates
-John Honai - CICD
-Tao W - Docker 
-Jason Taylor-  jenkins 2.0,GIT
-Niyazi Erdogan - PCF,rabitmq,AWS
-Academind by maximilan - Docker and Kubernates,mongodb
-Rahul Shetty - Devops  <========
-kalyan Reddy - AWS  <==========
-P K Akshay - AWS course <=======
-Edward viaene - kubernates   <=======
-Mark winterbottom - devops deployment automation with teraform,AWS,Docker   <======
-Bret fisher - Docker mastery,kubernates mastery  <=======
+	
+	All Authors:
+	-----------
+	john Thompson - spring f/w guru 
+	In28minutes
+	Tim Buchalka
+	Navin Reddy
+	Dan Vega - 2 courses on springboot
+	Bharath Thippireddy
+	John Purcell
+	Spring Batch
+	Sergey - oauth2.0 in spring boot app
+	Timotius Pamungkas - spring boot with ealastic search, kafka & kafka streams with spring boot
+	Holczer Balazs - Data structure & algotithims
+	Pragmatic code school - kafka with springboot,Reactive Restful API using wenbflux
+	Dominik Cebula - spring professional certification exam
+	Easy Bytes - spring security
+	Trevor Page - spring security
+	Spring Batch - spring batch
+	Spring Academy -= spring Integration
+	Easy Bytes - spring security
+	Imtiaz Ahmad - ELK stack,Oracle SQL, thymeleaf with springboot 
+	Sivaprasad Vallury -oauth2 with springboot
+	matt Greencroft , virtual pair programming
+	Alfa e-learning - jms with springboot,mongodb,
+	Sean Campbell
+	nelson jamal - jdk8 stream api,springboot
+	Mathias biehi - oauth2
+	Viraj Shetty - oauth2 and openid connect
+	Naveen reddy
+	Matt - Virtual pair programmers - thymeleaf with spring boot
+	Swapan kumar dutta - debugging through eclipse
+	
+	Jdk8 features:
+	==============
+	
+	
+	springboot restful api concepts
+	==============================
+	Sergey kargopolov
+	
+	
+	microservices using springboot and spring cloud
+	==============================================
+	in28minutes
+	Alfa e-learning
+	Hemja Beini
+	Marius Jaraminas
+	Sergey kasparov
+	ken krueger
+	John Thomson - spring f/w guru
+	Bharath Thirippireddy
+	John Thomson
+	Dan Vega
+	Bharat Thiripireddy
+	Nelson jamal
+	Dominik Cebula
+	Alfa e-learning
+	Karthikeyak T
+	Kalyan Reddy
+	Timotious pamungkasCampbell
+	Sean Campbell
+	vinoth selvaraj - Reactive microservices using spring web flux
+	Ali Gelenler - event driven microservices
+	FutureX skill 
+	Coding Saint
+	Binit Datta
+	
+	
+	Microservices security
+	=====================
+	
+	
+	Full Stack development ::
+	=======================
+	Get Arrays - JWT with spring security and angular
+	Agile inteligence - full stack with spring boot and react
+	Kathikeyan - full stack app springboot with ang
+	Agile inteligence - fuul stack spring boot with react and redux
+	nelson Jamal - React with springboot
+	Chad darby - springboot with angular
+	in28minutes - springboot with angular
+	Senol Atac - React + springboot + microservices
+	
+	
+	DevOps::
+	=======
+	Richard Chesterwood -virtual pair programmers - Docker , kubernates hand on - deploy springboot app to AWS cloud
+	Stephen grider - docker and kubernates complete guide,
+	Mumshad - Docker,kubernatesAnsible,chef,puppet 
+	Chad Darby - deploy spring app to AWS
+	syed Raza - complete devops with java ,kubernates
+	Richard Chesterwood - virtual pair programmer - Docker, kubernates
+	John Honai - CICD
+	Tao W - Docker 
+	Jason Taylor-  jenkins 2.0,GIT
+	Niyazi Erdogan - PCF,rabitmq,AWS
+	Academind by maximilan - Docker and Kubernates,mongodb
+	Rahul Shetty - Devops  <========
+	kalyan Reddy - AWS  <==========
+	P K Akshay - AWS course <=======
+	Edward viaene - kubernates   <=======
+	Mark winterbottom - devops deployment automation with teraform,AWS,Docker   <======
+	Bret fisher - Docker mastery,kubernates mastery  <=======
+	Hari Kammana
+	Levelup360 Devops
+	in28minutes - docker,kubernates
+	Packt Publishing - microservices with kubernates  <=====
+	
+	

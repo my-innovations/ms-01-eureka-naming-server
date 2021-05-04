@@ -1,59 +1,59 @@
-Rest End points exposed in all microservices:
-
-Eureka-server: port = 8761
-http://localhost:8761/
-
-config-server: port = 8888
-http://localhost:8888/limits-service/default/
-http://localhost:8888/limits-service/dev/
-http://localhost:8888/limits-service/qa/
-http://localhost:8888/limits-service/uat/
-http://localhost:8888/limits-service/prod/
-
-http://localhost:8888/currency-exchange-service/default/
-http://localhost:8888/currency-exchange-service/dev/
-http://localhost:8888/currency-exchange-service/qa/
-http://localhost:8888/currency-exchange-service/uat/
-http://localhost:8888/currency-exchange-service/prod/
-
-http://localhost:8888/currency-conversion-service/default/
-http://localhost:8888/currency-conversion-service/dev/
-http://localhost:8888/currency-conversion-service/qa/
-http://localhost:8888/currency-conversion-service/uat/
-http://localhost:8888/currency-conversion-service/prod/
-
-zuul-api-gate-way:
-
-cloud-gate-way: port 8191
-
-Limits-service: port = 8081
-GET - http://localhost:8081/limits-service-api/limits/without-fall-back
-http://localhost:8081/limits-service-api/limits/with-fall-back
-http://localhost:8081/limits-service-api/hello
-http://localhost:8081/limits-service-api/getMyEmail
-
-currency-exchange-service: port = 8082
-GET - http://localhost:8082/currency-exchange-api/getMyName
-GET - http://localhost:8082/currency-exchange-api/getServerPort
-GET - http://localhost:8082/currency-exchange-api/currency-exchange/from/USD/to/INR
-GET - http://localhost:8082/currency-exchange-api/currency-exchange/from/EUR/to/INR
-GET - http://localhost:8082/currency-exchange-api/all-currency-exchanges
-
-currency-conversion-service: port 8083
-http://localhost:8083/currency-conversion-api/currency-converter-restTemplate/from/USD/to/INR/quantity/5
-http://localhost:8083/currency-conversion-api/currency-converter-with-hystrix-fallback/from/USD/to/INR/quantity/5
-http://localhost:8762/currency-conversion-api/currency-converter-with-hystrix-fallback/from/USD/to/INR/quantity/5
-http://localhost:8083/currency-conversion-ms/currency-converter-feign/from/USD/to/INR/quantity/5
-http://punya:8083/currency-conversion-api/service-instances/currency-conversion-service
-http://localhost:8083/currency-conversion-api/currency-converter-with-load-balancer-client/from/USD/to/INR/quantity/7
-http://localhost:8083/currency-conversion-api/hello
-http://localhost:8083/currency-conversion-api/helloYT
+	Rest End points exposed in all microservices:
 	
-
-zipkin server: port = 9411
-java -jar zipkin.jar
-http://localhost:9411
-
-RabitMQ server port=5672
-
-POST - http://localhost:8081/actuator/refresh  - without request pay load
+	Eureka-server: port = 8761
+	http://localhost:8761/
+	
+	config-server: port = 8888
+	http://localhost:8888/limits-service/default/
+	http://localhost:8888/limits-service/dev/
+	http://localhost:8888/limits-service/qa/
+	http://localhost:8888/limits-service/uat/
+	http://localhost:8888/limits-service/prod/
+	
+	http://localhost:8888/currency-exchange-service/default/
+	http://localhost:8888/currency-exchange-service/dev/
+	http://localhost:8888/currency-exchange-service/qa/
+	http://localhost:8888/currency-exchange-service/uat/
+	http://localhost:8888/currency-exchange-service/prod/
+	
+	http://localhost:8888/currency-conversion-service/default/
+	http://localhost:8888/currency-conversion-service/dev/
+	http://localhost:8888/currency-conversion-service/qa/
+	http://localhost:8888/currency-conversion-service/uat/
+	http://localhost:8888/currency-conversion-service/prod/
+	
+	zuul-api-gate-way:
+	
+	cloud-gate-way: port 8191
+	
+	Limits-service: port = 8081
+	GET - http://localhost:8081/limits-service-api/limits/without-fall-back
+	http://localhost:8081/limits-service-api/limits/with-fall-back
+	http://localhost:8081/limits-service-api/hello
+	http://localhost:8081/limits-service-api/getMyEmail
+	
+	currency-exchange-service: port = 8082
+	GET - http://localhost:8082/currency-exchange-api/getMyName
+	GET - http://localhost:8082/currency-exchange-api/getServerPort
+	GET - http://localhost:8082/currency-exchange-api/currency-exchange/from/USD/to/INR
+	GET - http://localhost:8082/currency-exchange-api/currency-exchange/from/EUR/to/INR
+	GET - http://localhost:8082/currency-exchange-api/all-currency-exchanges
+	
+	currency-conversion-service: port 8083
+	http://localhost:8083/currency-conversion-api/currency-converter-restTemplate/from/USD/to/INR/quantity/5
+	http://localhost:8083/currency-conversion-api/currency-converter-with-hystrix-fallback/from/USD/to/INR/quantity/5
+	http://localhost:8762/currency-conversion-api/currency-converter-with-hystrix-fallback/from/USD/to/INR/quantity/5
+	http://localhost:8083/currency-conversion-ms/currency-converter-feign/from/USD/to/INR/quantity/5
+	http://punya:8083/currency-conversion-api/service-instances/currency-conversion-service
+	http://localhost:8083/currency-conversion-api/currency-converter-with-load-balancer-client/from/USD/to/INR/quantity/7
+	http://localhost:8083/currency-conversion-api/hello
+	http://localhost:8083/currency-conversion-api/helloYT
+		
+	
+	zipkin server: port = 9411
+	java -jar zipkin.jar
+	http://localhost:9411
+	
+	RabitMQ server port=5672
+	
+	POST - http://localhost:8081/actuator/refresh  - without request pay load
