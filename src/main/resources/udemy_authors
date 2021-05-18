@@ -30,23 +30,108 @@
 	Naveen reddy
 	Matt - Virtual pair programmers - thymeleaf with spring boot
 	Swapan kumar dutta - debugging through eclipse
+	Ali Gelenler -springboot,kafka,elastic search
+	Learning Journal - kafka + spring cloud
+	Bassem Abuein - springboot data reddis 
 	
+
 	Jdk8 features:
 	==============
+	holczer balazs
+	
+	Multithreading concepts:
+	========================
+	Programatic code school
+	Holczer balazs
+	Arun kumar
+	Sagar Uppuluri
 	
 	
-	springboot restful api concepts
-	==============================
+	junit & mockito & TestNG
+	===============
+	Pavan kumar
+	In28Minutes
+	
+	
+	MongoDB
+	=======
+	Academind by maximilan
+	
+	Angular
+	======
+	Mark greencroft , Virtual pair programmers
+	
+	
+	springboot with spring rest api concepts
+	========================================
+	programming code schoo; - spring web flux
+	Alfa e-learning
+	kalyan reddy 
+	
+	spring boot rest api app with spring security , JWT ,oauth2, OKTA
+	=================================================================
+	Eazy Bytes
+	sergey kas
+	sivaprasad valluru
+	Trevour page
+	Get Arrays - spring security +jwt+angular
+	Viraj Shetty
+	
+	Full stack with  springboot with spring mvc with jsp concepts
+	============================================================
+	
+	John Thomson
+	In28Minutes
+	Tim Buchalka
+	Naveen Reddy
+	Bharath Thippireddy
+	Dan Vega
+	John Purcell
+	Chad Darby
+	Timotius Pamungkas 
+	kalyan Reddy daida
 	Sergey kargopolov
 	
+	springboot with kafka
+	=====================
+	programatic code school
+	Timotius pamungas
+	
+	
+	springboot with rabbitmq
+	========================
+	alfa e-learning
+	
+	
+	Full stack with springboot , spring  MVC with thymeleaf
+	======================================================
+	Matt Greencroft,Virtual pair programmmers
+	Imtiaz ahmad
+	chad darby
+	
+	Full Stack development with spring boot with Angular , React, Redux::
+	=====================================================================
+	Agile inteligence - full stack with spring boot and react
+	Kathikeya T - full stack app springboot with ang
+	Agile inteligence - fuul stack spring boot with react and redux
+	nelson Jamal - React with springboot
+	Chad darby - springboot with angular
+	in28minutes - springboot with angular
+	Senol Atac - React + springboot + microservices
+	Bharath Thippireddy
+	
+	
+	Full Stack development with security ::
+	====================================
+	Get Arrays - JWT with spring security and angular
 	
 	microservices using springboot and spring cloud
 	==============================================
+	Sergey kasparov
 	in28minutes
 	Alfa e-learning
 	Hemja Beini
 	Marius Jaraminas
-	Sergey kasparov
 	ken krueger
 	John Thomson - spring f/w guru
 	Bharath Thirippireddy
@@ -67,37 +152,30 @@
 	Binit Datta
 	
 	
-	Microservices security
-	=====================
+	microservices using springboot and spring cloud with security
+	============================================================
 	
-	
-	Full Stack development ::
-	=======================
-	Get Arrays - JWT with spring security and angular
-	Agile inteligence - full stack with spring boot and react
-	Kathikeyan - full stack app springboot with ang
-	Agile inteligence - fuul stack spring boot with react and redux
-	nelson Jamal - React with springboot
-	Chad darby - springboot with angular
-	in28minutes - springboot with angular
-	Senol Atac - React + springboot + microservices
 	
 	
 	DevOps::
 	=======
+	
+	
+	
 	Richard Chesterwood -virtual pair programmers - Docker , kubernates hand on - deploy springboot app to AWS cloud
 	Stephen grider - docker and kubernates complete guide,
 	Mumshad - Docker,kubernatesAnsible,chef,puppet 
 	Chad Darby - deploy spring app to AWS
 	syed Raza - complete devops with java ,kubernates
-	Richard Chesterwood - virtual pair programmer - Docker, kubernates
+	Richard Chesterwood - virtual pair programmer - hands on Docker, kubernates
 	John Honai - CICD
+	John Thomson - docker
 	Tao W - Docker 
 	Jason Taylor-  jenkins 2.0,GIT
 	Niyazi Erdogan - PCF,rabitmq,AWS
-	Academind by maximilan - Docker and Kubernates,mongodb
+	Academind by maximilan - Handon Docker and Kubernates,mongodb
 	Rahul Shetty - Devops  <========
-	kalyan Reddy - AWS  <==========
+	kalyan Reddy daida - AWS  <==========
 	P K Akshay - AWS course <=======
 	Edward viaene - kubernates   <=======
 	Mark winterbottom - devops deployment automation with teraform,AWS,Docker   <======
@@ -106,5 +184,27 @@
 	Levelup360 Devops
 	in28minutes - docker,kubernates
 	Packt Publishing - microservices with kubernates  <=====
+	
+	AWS:
+	===
+	
+	
+	PCF
+	====
+	Niyazi Erdogan
+	
+	
+	GCP:
+	====
+	
+	
+	Azure
+	====
+	
+	
+	
+	
+	
+	
 	
 	
