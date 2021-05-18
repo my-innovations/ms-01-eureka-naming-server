@@ -1,6 +1,72 @@
 	
-	All Authors:
-	-----------
+	Jdk8 features:
+	==============
+	holczer balazs
+	Durgasoft Durga
+	intertech trainning, jeff jenson
+	Nelson jamal
+	
+	java9
+	====
+	Tim bachlka
+	Durgasoft durga
+	
+	java 11
+	=======
+	John Purcell
+	
+	java Collections
+	================
+	Basics Strong
+	
+	
+	Multithreading concepts:
+	========================
+	Programatic code school
+	Holczer balazs
+	Arun kumar
+	Sagar Uppuluri
+	Michael Pogrebinsky
+	John Purcell
+	
+	
+	junit & mockito & TestNG
+	===============
+	Pavan kumar
+	In28Minutes
+	Rahul Shetty
+	Adrian
+	Bharath Thiripireddy
+	Ashley
+	
+	Linux
+	=====
+	Imran Afzal = 29.5 hrs
+	Kasif Ali
+	
+	RabbitMQ
+	========
+	Mustafa kok
+	
+	
+	MongoDB
+	=======
+	Academind by maximilan
+	
+	Angular
+	======
+	Matt greencroft , Virtual pair programmers
+	Angular University
+	
+	Angjs to ang migration
+	======================
+	Asim Hussain
+	
+	spring framework:
+	================
+	john Thompson - spring f/w guru 
+	In28Minutes
+	Tim Buchalka
 	john Thompson - spring f/w guru 
 	In28minutes
 	Tim Buchalka
@@ -34,39 +100,13 @@
 	Learning Journal - kafka + spring cloud
 	Bassem Abuein - springboot data reddis 
 	
-
-	Jdk8 features:
-	==============
-	holczer balazs
-	
-	Multithreading concepts:
-	========================
-	Programatic code school
-	Holczer balazs
-	Arun kumar
-	Sagar Uppuluri
-	
-	
-	junit & mockito & TestNG
-	===============
-	Pavan kumar
-	In28Minutes
-	
-	
-	MongoDB
-	=======
-	Academind by maximilan
-	
-	Angular
-	======
-	Mark greencroft , Virtual pair programmers
-	
 	
 	springboot with spring rest api concepts
 	========================================
 	programming code schoo; - spring web flux
 	Alfa e-learning
 	kalyan reddy 
+	Rajeev Sakhuja
 	
 	spring boot rest api app with spring security , JWT ,oauth2, OKTA
 	=================================================================
@@ -76,6 +116,11 @@
 	Trevour page
 	Get Arrays - spring security +jwt+angular
 	Viraj Shetty
+	Trevor Page
+	Bharath Thiripireddy
+	Matthias Biehl
+	Thomas Mitchell - OKTA
+	Silviu lulian Muraru
 	
 	Full stack with  springboot with spring mvc with jsp concepts
 	============================================================
@@ -96,11 +141,22 @@
 	=====================
 	programatic code school
 	Timotius pamungas
+	Learning Journal
+	Prashant kumar pandey ,Learning Journal
 	
 	
 	springboot with rabbitmq
 	========================
 	alfa e-learning
+	Niyazi Erdogan
+	
+	springboot + reddis
+	===================
+	Baseem
+	
+	Reddis DB
+	======
+	Vikas kumar Jha, Poonam jha
 	
 	
 	Full stack with springboot , spring  MVC with thymeleaf
@@ -119,6 +175,7 @@
 	in28minutes - springboot with angular
 	Senol Atac - React + springboot + microservices
 	Bharath Thippireddy
+	Antonica Alexandru
 	
 	
 	Full Stack development with security ::
@@ -156,11 +213,12 @@
 	============================================================
 	
 	
+	Java application performance and memory management
+	=================================================
+	Mark Greencroft , Virtual pair programmer
 	
 	DevOps::
 	=======
-	
-	
 	
 	Richard Chesterwood -virtual pair programmers - Docker , kubernates hand on - deploy springboot app to AWS cloud
 	Stephen grider - docker and kubernates complete guide,
@@ -172,13 +230,9 @@
 	John Thomson - docker
 	Tao W - Docker 
 	Jason Taylor-  jenkins 2.0,GIT
-	Niyazi Erdogan - PCF,rabitmq,AWS
 	Academind by maximilan - Handon Docker and Kubernates,mongodb
 	Rahul Shetty - Devops  <========
-	kalyan Reddy daida - AWS  <==========
-	P K Akshay - AWS course <=======
 	Edward viaene - kubernates   <=======
-	Mark winterbottom - devops deployment automation with teraform,AWS,Docker   <======
 	Bret fisher - Docker mastery,kubernates mastery  <=======
 	Hari Kammana
 	Levelup360 Devops
@@ -187,6 +241,14 @@
 	
 	AWS:
 	===
+	P K Akshay - AWS course <=======
+	kalyan Reddy daida - AWS  <==========
+	Niyazi Erdogan - PCF,rabitmq,AWS
+	Mark winterbottom - devops deployment automation with teraform,AWS,Docker   <======
+	
+	Azure
+	====
+	
 	
 	
 	PCF
@@ -198,8 +260,10 @@
 	====
 	
 	
-	Azure
-	====
+	
+	
+	
+	
 	
 	
 	
